@@ -1,0 +1,15 @@
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="social-instagram-1" transform="translate(0.5 0.5)">
+    <path d="M3.31268 0L19.6873 0C21.5169 0 23 1.48314 23 3.31268L23 19.691C23 21.5205 21.5169 23.0037 19.6873 23.0037L3.31268 23.0037C1.48314 23.0037 0 21.5205 0 19.691L0 3.31268C0 1.48314 1.48314 0 3.31268 0Z" id="Rectangle" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5.5 11.0018C8.53757 11.0018 11 8.53893 11 5.50088C11 2.46283 8.53757 0 5.5 0C2.46243 0 0 2.46283 0 5.50088C0 8.53893 2.46243 11.0018 5.5 11.0018Z" transform="translate(6 7.000977)" id="Oval" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M3.5 7.00112C5.433 7.00112 7 5.43387 7 3.50056C7 1.56725 5.433 0 3.5 0C1.567 0 0 1.56725 0 3.50056C0 5.43387 1.567 7.00112 3.5 7.00112Z" transform="translate(8 9.001465)" id="Oval" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 0.50008L6.6 0.50008" transform="translate(0 9.501465)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 0.50008L6.6 0.50008" transform="translate(16.3999 9.501465)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.55128 0L2.44872 0C2.75318 0 3 0.246816 3 0.55128L3 2.4492C3 2.75366 2.75318 3.00048 2.44872 3.00048L0.55128 3.00048C0.246816 3.00048 0 2.75366 0 2.4492L0 0.55128C0 0.246816 0.246816 0 0.55128 0Z" transform="translate(17 3.000488)" id="Rectangle" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.5 0L0.5 4.66075" transform="translate(3.5 0.340332)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.5 0L0.5 5.0008" transform="translate(5.5 0)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.5 0L0.5 5.0008" transform="translate(7.5 0)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.5 0L0.5 5.0008" transform="translate(9.5 0)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

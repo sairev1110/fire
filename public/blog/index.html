@@ -1,0 +1,2726 @@
+<html lang="en">
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.html).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+         <title>Chronic Diseases, Drug Side Effects &amp; Dietary Supplements: Sepalika</title><link rel="stylesheet" href="../wp-content/cache/min/1/5e5241e0a851670ebd6afa8b2b47d4bd.css" media="all" data-minify="1" />
+         <link rel="icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://www.sepalika.com/wp-content/uploads/2021/01/favicon.ico" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="msapplication-TileColor" content="#786EB9">
+        <meta name="theme-color" content="#786EB9">
+    <!-- Google Tag Manager -->
+
+<script type="rocketlazyloadscript">
+
+window.dataLayer = window.dataLayer || [];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PXNRKSK');
+
+</script>
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5TTMRGL');</script>
+<!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+<script type="rocketlazyloadscript">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'../../connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '611987403287814'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=611987403287814&amp;ev=PageView&amp;noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Deal with chronic disease better through research based advice on drug side effects, dietary supplements, diet and lifestyle. We provide information on chronic health conditions through nutrition, dietary supplements, lifestyle changes and awareness on drug side effects." />
+	<link rel="canonical" href="index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Chronic Diseases, Drug Side Effects &amp; Dietary Supplements: Deepta" />
+	<meta property="og:description" content="Deal with chronic disease better through research based advice on drug side effects, dietary supplements, diet and lifestyle. We provide information on chronic health conditions through nutrition, dietary supplements, lifestyle changes and awareness on drug side effects." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.sepalika.com/#website","url":"https://www.sepalika.com/","name":"Sepalika","description":"Women&#039;s Hormonal Health Clinic","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.sepalika.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.sepalika.com/blog/#webpage","url":"https://www.sepalika.com/blog/","name":"Chronic Diseases, Drug Side Effects & Dietary Supplements: Sepalika","isPartOf":{"@id":"https://www.sepalika.com/#website"},"datePublished":"2021-01-01T06:01:04+00:00","dateModified":"2021-01-28T19:33:41+00:00","description":"Deal with chronic disease better through research based advice on drug side effects, dietary supplements, diet and lifestyle. We provide information on chronic health conditions through nutrition, dietary supplements, lifestyle changes and awareness on drug side effects.","breadcrumb":{"@id":"https://www.sepalika.com/blog/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.sepalika.com/blog/"]}]},{"@type":"BreadcrumbList","@id":"https://www.sepalika.com/blog/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Blog"}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="amphtml" href="amp/index.html" /><meta name="generator" content="AMP for WP 1.0.77.43"/><link rel='dns-prefetch' href='http://code.jquery.com/' />
+<link rel='dns-prefetch' href='http://cdn.jsdelivr.net/' />
+<link rel='dns-prefetch' href='http://www.google.com/' />
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	
+
+
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+
+
+
+
+
+
+
+
+
+<style id='theiaPostSlider-inline-css' type='text/css'>
+
+
+				.theiaPostSlider_nav.fontTheme ._title,
+				.theiaPostSlider_nav.fontTheme ._text {
+					line-height: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button,
+				.theiaPostSlider_nav.fontTheme ._button svg {
+					color: #f08100;
+					fill: #f08100;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button ._2 span {
+					font-size: 48px;
+					line-height: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button ._2 svg {
+					width: 48px;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._button:hover,
+				.theiaPostSlider_nav.fontTheme ._button:focus,
+				.theiaPostSlider_nav.fontTheme ._button:hover svg,
+				.theiaPostSlider_nav.fontTheme ._button:focus svg {
+					color: #ffa338;
+					fill: #ffa338;
+				}
+	
+				.theiaPostSlider_nav.fontTheme ._disabled,				 
+                .theiaPostSlider_nav.fontTheme ._disabled svg {
+					color: #777777 !important;
+					fill: #777777 !important;
+				}
+			
+</style>
+
+
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreenaec2.css?ver=6.4.1' type='text/css' media='only screen and (max-width: 768px)' />
+
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+
+
+
+
+
+
+
+
+
+<style id='fancybox-inline-css' type='text/css'>
+.wpgs-for .slick-slide{cursor:pointer;}
+</style>
+
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../wp-content/cache/min/1/jquery-3.5.1.min7fea.js?ver=1645525376' id='jquery-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/avatar-manager/assets/js/avatar-manager.min1576.js?ver=1.2.1' id='avatar-manager-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/theia-post-slider/js/balupton-history.js/jquery.history7fea.js?ver=1645525376' id='history.js-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/theia-post-slider/js/async.min8cd5.js?ver=14.09.2014' id='async.js-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/theia-post-slider/js/tps7fea.js?ver=1645525376' id='theiaPostSlider/theiaPostSlider.js-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/theia-post-slider/js/main7fea.js?ver=1645525376' id='theiaPostSlider/main.js-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/theia-post-slider/js/tps-transition-slide7fea.js?ver=1645525376' id='theiaPostSlider/transition.js-js' defer></script>
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/15234.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='../index5d0b.html?p=15234' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed299b.json?url=https%3A%2F%2Fwww.sepalika.com%2Fblog%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed384f?url=https%3A%2F%2Fwww.sepalika.com%2Fblog%2F&amp;format=xml" />
+        <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+            ( function () {
+                window.lae_fs = { can_use_premium_code: false};
+            } )();
+        </script>
+        <meta name="ahrefs-site-verification" content="473784bf0922feebe0132797e7ba11524e7ca87c38523717daa6a757d593a1a8">
+<meta name="ahrefs-site-verification" content="93aa49c75677bdcd748191b4dd281a490f0126ae29f1d896be0ce21744ccac92">
+<meta name="ahrefs-site-verification" content="924c3684564126d7300e9a63b532124d030dda5db86639fac629b7e90b1020d9">
+<meta name="ahrefs-site-verification" content="152e7ca0b7d63cb53775010dbf7ced49ce1ec4c4110668f942dc1f24f8b4ac10">			<style>
+			#related_posts_thumbnails li{
+				border-right: 1px solid #dddddd;
+				background-color: #ffffff			}
+			#related_posts_thumbnails li:hover{
+				background-color: #eeeeee;
+			}
+			.relpost_content{
+				font-size:	12px;
+				color: 		#333333;
+			}
+			.relpost-block-single{
+				background-color: #ffffff;
+				border-right: 1px solid  #dddddd;
+				border-left: 1px solid  #dddddd;
+				margin-right: -1px;
+			}
+			.relpost-block-single:hover{
+				background-color: #eeeeee;
+			}
+		</style>
+
+	<style>:root{--tpg-primary-color: #0d6efd;--tpg-secondary-color:#0654c4;--tpg-primary-light:#c4d0ff }</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<style type="text/css">.wpgs-for .slick-arrow::before,.wpgs-nav .slick-prev::before, .wpgs-nav .slick-next::before{color:#000;}.fancybox-bg{background-color:rgba(10,0,0,0.75);}.fancybox-caption,.fancybox-infobar{color:#fff;}.wpgs-nav .slick-slide{border-color:transparent}.wpgs-nav .slick-current{border-color:#000}</style><link rel="icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://www.sepalika.com/wp-content/uploads/2021/01/favicon.ico" />
+		<style type="text/css" id="wp-custom-css">
+			.blogItemDetailBlock table img{
+	width:140px;
+}
+.woocommerce .blogItemDetailBlock h2{
+	line-height:1em;
+}
+.woocommerce-Tabs-panel h2{
+	display:none;
+}
+.blogItemDetailBlock ul.page-numbers li{
+	width:auto;
+}
+.woocommerce .ts-fab-wrapper,.woocommerce .woocommerce-result-count,.woocommerce .products .star-rating,.woocommerce a.button,.woocommerce div.product .woocommerce-tabs ul.tabs li.active{
+	display:none;
+}
+.slick-dots li button:before,.slick-prev:before, .slick-next:before{
+	background:none !important;
+	color:none !important;
+}
+.slick-arrow{
+	display:none!important;
+}
+ul.slick-dots li button {
+	border: 1px solid #ccc !important;
+}
+.woocommerce .blogItemDetailBlock p{
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.woocommerce .detailPageBannerSection img, .woocommerce-page .detailPageBannerSection img {
+    height: 100%;
+}
+.woocommerce .blogItemDetailBlock img{
+	height:53px;
+}
+.blogItemDetailBlock table{
+	overflow:hidden;
+}
+.woocommerce nav.woocommerce-pagination{
+	padding-bottom:20px;
+}
+.blogItemDetailBlock table td {
+	vertical-align: top;
+	font-size: 18px;
+    line-height: 28px;
+}
+/* Fertility-quiz*/
+.blogItemDetailBlock .smi img.emoji{
+	height:15px !important;
+}
+
+#regForm *{
+	font-family:""Futura PT Book"" !important;
+	margin-bottom:10px;
+}
+#regForm .smi-info{
+	background: #796DB6 url(https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/themes/sepalika/assets/images/footer-petal.svg) no-repeat right -50%;
+	color:#fff !important;
+	padding:15px;
+	padding-bottom:45px;
+	border-radius: 12px;
+}
+#regForm .smi-info{
+	margin:0;
+}
+#regForm .btn{
+	border:none;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+ color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+	margin:3px;
+}
+
+.step.active {
+   background-color:#786EB9;
+  color: white;
+  border-radius: 5px;
+}
+ul.slick-dots li button{
+border:none;
+}
+
+div#longModalOne, div#longModalTwo {
+    background: rgba(255, 255, 255, 0.95);
+
+}
+.csModal__content__iframeWrapper{padding:30px}
+.csModal input[type=text],.csModal input[type=email],.csModal input[type=tel], .csModal select, .csModal textarea,.csModal input[type=number] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.csModal label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.csModal input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.csModal  input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish, .step:hover:not(.active) {
+background-color: #ddd;
+  border-radius: 5px;
+}
+@media(max-width:800px){
+    .miniTit{
+    
+    left: 60px !important;
+}  
+}
+@media (max-width: 599px)
+{
+	.blogItemDetailBlock table img{
+
+}
+.miniTit{
+    
+    padding-left: 10px !important;
+}
+#regForm .smi-info{
+	background: #796DB6;
+	background-image:none;
+		padding-bottom:40px;
+	}
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>
+
+</head>
+
+<body  class="page-template page-template-page-blog page-template-page-blog-php page page-id-15234 theme-sepalika theiaPostSlider_body woocommerce-no-js elementor-default elementor-kit-16515">
+    
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXNRKSK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5TTMRGL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+   
+	<!-- Facebook Pixel Code -->
+<script type="rocketlazyloadscript">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'../../connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '611987403287814'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=611987403287814&amp;ev=PageView&amp;noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+   <div class="wrapper">
+
+   	
+            <div class="pageHeadItems">
+                                 <div class="navbarHolder navbarSecond">
+                    <div class="container">
+                        <nav class="navbarIn">
+                           <a class="pageLogo" href="../index.html">
+                            <img src="../images/6.jpeg" class="pageLogoIn" alt="page logo" data-lazy-src="../images/6.jpeg" style="width:85px;height: 65px;"/><p class="logoText miniTit" style="bottom: 13px;font-size:19px;left:15px;">Deepta Manohar</p>
+                                <p class="logoText miniTit" style="left:15px;">Acutouch Therapist </p>
+                            </a>
+                            <div class="navListHoler">
+
+                            						
+
+               
+
+<ul class="navList">
+    <span class="navOut"></span>
+    <li class="hasChild">
+        <a href="javascript:void(0);" scroll-to="our-programs" class="navListAnchor hasChild">Health Guide</a>
+        <div class="childIn">
+            <span class="showForSmall childOut"></span>
+            <div class="ChildInHalfListHolder">
+                <ul class="halfInList">
+                    <li>
+                        <a href="../category/gerd/index.html">Acid Reflux</a>
+                    </li>
+                    <li>
+                        <a href="../category/allergies/index.html">Allergies</a>
+                    </li>
+                    <li>
+                        <a href="../category/alzheimers/index.html">Alzheimer's</a>
+                    </li>
+                    <li>
+                        <a href="../category/arthritis/index.html">Arthritis</a>
+                    </li>
+                    <li>
+                        <a href="../category/asthma/index.html">Asthma</a>
+                    </li>
+                    <li>
+                        <a href="../category/constipation/index.html">Constipation</a>
+                    </li>
+                    <li>
+                        <a href="../category/chronic-fatigue-syndrome/index.html">CFS</a>
+                    </li>
+                    <li>
+                        <a href="../category/eyesight/index.html">Eyesight</a>
+                    </li>
+                    <li>
+                        <a href="../category/fertility/index.html">Fertility</a>
+                    </li>
+					<li>
+                        <a href="../category/heart/index.html">Heart</a>
+                    </li>
+                    <li>
+                        <a href="../category/hypothyroidism/index.html">Hypothyroidism</a>
+                    </li>
+                    <li>
+                        <a href="../category/immunity/index.html">Immunity</a>
+                    </li>
+                    <li>
+                        <a href="../category/living-well/index.html">Living Well</a>
+                    </li>
+                    <li>
+                        <a href="../category/programs/menopause/index.html">Menopause</a>
+                    </li>
+                    <li>
+                        <a href="../category/mental-health/index.html">Mental Health</a>
+                    </li>
+                    <li>
+                        <a href="../category/sleep/index.html">Sleep</a>
+                    </li>
+                    <li>
+                        <a href="../category/osteoporosis/index.html">Osteoporosis</a>
+                    </li>
+                    <li>
+                        <a href="../category/pcos/index.html">PCOS</a>
+                    </li>
+                    <li>
+                        <a href="../category/type-2-diabetes/index.html">Type 2 Diabetes</a>
+                    </li>
+                    <li>
+                        <a href="../category/weight-loss/index.html">Weight Loss</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </li>
+    <li class="hasChild">
+        <a href="javascript:void(0);" scroll-to="our-programs" class="navListAnchor hasChild">Q&A</a>
+        <div class="childIn">
+            <span class="showForSmall childOut"></span>
+            <div class="ChildInHalfListHolder">
+                <ul class="halfInList">
+                    <li>
+                        <a href="../category/acid-reflux-questions/index.html">Acid Reflux Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/allergies-questions/index.html">Allergies Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/alzheimers-questions/index.html">Alzheimer’s Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/arthritis-questions/index.html">Arthritis Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/heart-questions/index.html">Heart Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/hypothyroidism-questions/index.html">Hypothyroidism Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/living-well-questions/index.html">Living Well Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/menopause-questions/index.html">Menopause Questions</a>
+                    </li>
+                    <li>
+                        <a href="../category/type-2-diabetes-questions/index.html">Type 2 Diabetes Questions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <a href="../tag/video/index.html" scroll-to="our-philosophy" class="navListAnchor">Videos</a>
+    </li>
+    <li class="hasChild">
+        <a href="javascript:void(0);" scroll-to="our-programs" class="navListAnchor hasChild">Most Popular</a>
+        <div class="childIn">
+            <span class="showForSmall childOut"></span>
+
+                                                
+                                               <a href="../programs/low-amh-is-it-the-end-of-my-baby-dreams/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Low AMH: Is it the end of my baby dreams?</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../programs/hidden-causes-of-male-infertility-what-you-never-knew/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Hidden Causes of Male Infertility: What You Never Knew</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../fertility/getting-pregnant-your-foundational-health-is-most-important/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Getting Pregnant: Your Foundational Health is Most Important</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../programs/how-do-i-know-when-my-fertile-window-is/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Tracking your Ovulation Dates &#038; Mistakes to Avoid</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../programs/fertility-testing-for-men-and-couples-decoded/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Fertility Testing for Men and Couples Decoded</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../fertility/conquering-genetic-infertility-issues/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Conquering Genetic Infertility Issues</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../fertility/improve-fertility-diet-meal-plan/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>An Easy Fertility Diet Plan: Improve Your Pregnancy Chances</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../covid-19-eat-boost-immunity/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>COVID-19: What Should You Eat To Boost Your Immunity?</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../surprising-facts-acid-reflux/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>10 Things You Didn’t Know About Acid Reflux</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../what-is-eecp-heart-treatment/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>What Is EECP Heart Treatment?</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../delay-menopause-naturally/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Secrets Of Women Who Delay Menopause Naturally</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../programs/9-early-signs-symptoms-of-pregnancy-some-very-unusual/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/Pregnancy-4-2.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/Pregnancy-4-2.jpg" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>9 Early Signs &#038; Symptoms of Pregnancy (Some Very Unusual!)</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                                               <a href="../programs/side-effects-of-assisted-reproductive-technology-sepalika/index.html" class="blogPintile">
+
+                            <div class="itemChild">
+                                <div class="itemChild__image">
+                                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog"  data-lazy-src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/ART.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/ART.jpg" alt="blog"  /></noscript>
+
+
+                                    
+                                </div>
+                                <div class="itemChild__content">
+                                    <p class="tagSpec">
+                                                                     
+                                   </p>
+                                    <h4>Side Effects of Assisted Reproductive Technology | Sepalika</h4>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+
+      
+
+
+        </div>
+    </li>
+    
+</ul>
+
+<div class="searchInPage">
+
+	<label class="searchInNav">
+            <span class="sprite sprite__search searchToggler"></span>
+        </label>
+        <div class="searchInputHolder">
+         
+
+              <form role="search" action="https://www.sepalika.com/" method="get" id="searchform">
+                  <input type="text" value="" name="s" class="csSeachInput" placeholder="Type something"/>
+                 <span class="seachInButton">
+                      <input type="submit" alt="Search" value="Search" class="sprite sprite__search-white"/>
+                  </span>
+              </form>
+        </div>
+
+</div>
+                                
+
+
+	
+
+
+
+
+                             <span class="hamburger navListToggler">
+                                    <span></span>
+                                </span>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                             <div class="breadcrumb">
+                    <div class="containerMd">
+
+    
+                        
+                         <a class="sprite sprite__home-b" href="../index.html"></a>
+
+
+                     <div class="breadcrumb-container theme1">
+                    <ul>
+                    <li >
+            <a title="Blog" href="index.html">
+                <span>Blog</span>
+            </a>
+            <span class="separator">/</span>
+        </li>
+                </ul>
+            <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement":
+            [
+                                        {
+                            "@type": "ListItem",
+                            "position":2,
+                            "item":
+                            {
+                                "@id": "https://www.sepalika.com/blog/",
+                                "name": "Blog"
+                            }
+                        }                                    ]
+        }
+    </script>
+        <style type="text/css">
+        .breadcrumb-container {
+            font-size: 13px;
+        }
+        .breadcrumb-container ul {
+            margin: 0;
+            padding: 0;
+        }
+        .breadcrumb-container li {
+            box-sizing: unset;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .breadcrumb-container li a {
+            box-sizing: unset;
+            padding: 0 10px;
+        }
+        .breadcrumb-container {
+            font-size:   !important;
+            padding: ;
+            margin: ;
+        }
+        .breadcrumb-container li a{
+            color:    !important;
+            font-size:    !important;
+            line-height:    !important;
+        }
+        .breadcrumb-container li .separator {
+            color:   !important;
+            font-size:    !important;
+        }
+                    .breadcrumb-container li:last-child .separator {
+                display: none;
+            }
+                </style>
+        <style type="text/css">
+        .breadcrumb-container.theme1 li {
+            margin: 0;
+            padding: 0;
+        }
+        .breadcrumb-container.theme1 a {
+            background: ;
+            display: inline-block;
+            margin: 0 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+    </style>
+        <style type="text/css">
+        .breadcrumb-container{}
+.breadcrumb-container ul{}
+.breadcrumb-container li{}
+.breadcrumb-container a{}
+.breadcrumb-container .separator{}
+    </style>
+    <script type="rocketlazyloadscript">
+            </script>
+            </div>
+        
+
+
+                    </div>
+                </div>
+
+            
+
+
+            </div>
+
+       
+    <div class="contentArea contentArea__blog">
+        <section class="blogCarousalSection">
+            <div class="carousalParent carousalParent__blog">
+                                                    
+                <a href="../programs/low-amh-is-it-the-end-of-my-baby-dreams/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Low AMH: Is it the end of my baby dreams?</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Mar 29, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../programs/hidden-causes-of-male-infertility-what-you-never-knew/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Hidden Causes of Male Infertility: What You Never Knew</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Feb 22, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../fertility/getting-pregnant-your-foundational-health-is-most-important/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Getting Pregnant: Your Foundational Health is Most Important</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Feb 15, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../programs/how-do-i-know-when-my-fertile-window-is/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Tracking your Ovulation Dates &#038; Mistakes to Avoid</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Feb 8, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../programs/fertility-testing-for-men-and-couples-decoded/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Fertility Testing for Men and Couples Decoded</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Jan 29, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../fertility/conquering-genetic-infertility-issues/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Conquering Genetic Infertility Issues</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Oct 8, 2021</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../fertility/improve-fertility-diet-meal-plan/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>An Easy Fertility Diet Plan: Improve Your Pregnancy Chances</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Jul 22, 2021</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../covid-19-eat-boost-immunity/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Living Well                        </p>
+                        <h4>COVID-19: What Should You Eat To Boost Your Immunity?</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">May 27, 2020</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../surprising-facts-acid-reflux/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Acid Reflux                        </p>
+                        <h4>10 Things You Didn’t Know About Acid Reflux</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Apr 28, 2020</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../what-is-eecp-heart-treatment/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Heart                        </p>
+                        <h4>What Is EECP Heart Treatment?</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Feb 28, 2017</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../delay-menopause-naturally/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Menopause                        </p>
+                        <h4>Secrets Of Women Who Delay Menopause Naturally</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Jan 30, 2017</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../programs/9-early-signs-symptoms-of-pregnancy-some-very-unusual/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/Pregnancy-4-2.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/Pregnancy-4-2.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Pregnancy                        </p>
+                        <h4>9 Early Signs &#038; Symptoms of Pregnancy (Some Very Unusual!)</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Mar 22, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                                    
+                <a href="../programs/side-effects-of-assisted-reproductive-technology-sepalika/index.html" class="blogPintile">
+                    <div class="blogPintile__image">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/ART.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/ART.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+
+
+                                             </div>
+                    <div class="blogPintile__description">
+                        <p class="tagSpec">
+                            Fertility                        </p>
+                        <h4>Side Effects of Assisted Reproductive Technology | Sepalika</h4>
+                        <div class="bloginfoBox">
+                            <span class="blogDate">Mar 15, 2022</span>
+                        <!--     <label class="blogViewsCount">
+                                <span class="sprite sprite__views"></span>
+                                2,647
+                            </label> -->
+                            <span class="blogShare">
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__twitter--c"></span>
+                                </label>
+                                <label class="blogSocialLink">
+                                    <span class="sprite sprite__facebook--c"></span>
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+                            </div>
+        </section>
+
+        <section class="pageSection p-t-45">
+            <div class="w-1100 p-20">
+
+
+                <div class="blogHighlightBox">
+                    <div class="titleSecondaryBox">
+                        <p class="subtitleIn">HANDPICKED</p>
+                        <h3>Explore our Health Guide</h3>
+                    </div>
+                    <div class="offset17Box blogPintileHolder handPickSlider">
+
+
+                        
+                  
+
+                            <a href="../category/gerd/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Acid-Reflux.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Acid-Reflux.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Acid Reflux</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/allergies/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Allergies.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Allergies.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Allergies</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/alzheimers/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Alzheimers.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Alzheimers.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Alzheimer’s</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/arthritis/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Arthritis.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Arthritis.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Arthritis</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/asthma/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Asthma.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Asthma.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Asthma</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/chronic-fatigue-syndrome/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Chronic-Fatigue-Syndrome.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Chronic-Fatigue-Syndrome.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Chronic Fatigue Syndrome (CFS)</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/constipation/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Constipation.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Constipation.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Constipation</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/eyesight/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Eyesight.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Eyesight.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Eyesight</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/fertility/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" /><noscript><img src='https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Fertility</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/heart/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Heart.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Heart.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Heart</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/hypothyroidism/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Hypothyroidism.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Hypothyroidism.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Hypothyroidism</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/immunity/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Immunity.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Immunity.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Immunity</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/living-well/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Living-Well.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Living-Well.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Living Well</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/programs/menopause/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Menopause.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Menopause.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Menopause</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/mental-health/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Mental-Health.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Mental-Health.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Mental Health</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/osteoporosis/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Osteoporosis.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Osteoporosis.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Osteoporosis</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/pcos/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/PCOS.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/PCOS.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Polycystic Ovarian Syndrome</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/sleep/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Sleep.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Sleep.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Sleep</h5>
+                            </a>
+
+
+                        
+                  
+
+                            <a href="../category/type-2-diabetes/index.html" class="blogHighlightIn">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog highlight image" class="blogHighlightIn__image" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Type-2-Diabetes.jpg" /><noscript><img src='../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/Type-2-Diabetes.jpg' alt="blog highlight image" class="blogHighlightIn__image" /></noscript>
+                                <h5 class="blogHighlightIn__text">Type 2 Diabetes</h5>
+                            </a>
+
+
+                                            </div>
+                </div>
+
+                <div class="offset17Box blogPintileHolder">
+
+
+                    
+                    
+
+                    <a href="../programs/low-amh-is-it-the-end-of-my-baby-dreams/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/03/IMG_4589.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Low AMH: Is it the end of my baby dreams?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Mar 29, 2022</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../programs/hidden-causes-of-male-infertility-what-you-never-knew/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/Hidden-Causes-of-Male-Infertility.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Hidden Causes of Male Infertility: What You Never Knew</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Feb 22, 2022</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../fertility/getting-pregnant-your-foundational-health-is-most-important/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/foundational-health.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Getting Pregnant: Your Foundational Health is Most Important</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Feb 15, 2022</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../programs/how-do-i-know-when-my-fertile-window-is/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/attractive-young-girl-pajama-with-shorts-sunny-window-modern-apartment-she-chatting-tab-smiling-1024x683-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Tracking your Ovulation Dates &#038; Mistakes to Avoid</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Feb 8, 2022</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../programs/fertility-testing-for-men-and-couples-decoded/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2022/01/Healthy-Sperm-2-1024x682-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Fertility Testing for Men and Couples Decoded</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Jan 29, 2022</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../fertility/conquering-genetic-infertility-issues/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/10/shutterstock_1669326868.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>Conquering Genetic Infertility Issues</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 8, 2021</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../fertility/improve-fertility-diet-meal-plan/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/fertility-diet-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Fertility</p>
+                            <h4>An Easy Fertility Diet Plan: Improve Your Pregnancy Chances</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Jul 22, 2021</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../covid-19-eat-boost-immunity/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-1.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>COVID-19: What Should You Eat To Boost Your Immunity?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">May 27, 2020</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../surprising-facts-acid-reflux/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/Facts-About-Acid-Reflux.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Acid Reflux</p>
+                            <h4>10 Things You Didn’t Know About Acid Reflux</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Apr 28, 2020</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../what-is-eecp-heart-treatment/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/admin-ajax-8.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Heart</p>
+                            <h4>What Is EECP Heart Treatment?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Feb 28, 2017</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../delay-menopause-naturally/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/admin-ajax-4.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Menopause</p>
+                            <h4>Secrets Of Women Who Delay Menopause Naturally</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Jan 30, 2017</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../plant-based-diet-heart-disease/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-9.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-9.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Heart</p>
+                            <h4>Can A Plant-Based Diet Protect From Heart Disease?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Sep 26, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../quit-your-sweet-addiction/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-6-2.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-6-2.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>How to Stop Sugar Cravings</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 17, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../can-diabetics-eat-bananas/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-8-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-8-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Diet Guide &amp; Principles</p>
+                            <h4>Can Diabetics Eat Bananas?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Sep 23, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../traveling-with-diabetes/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-13.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-13.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living With Type 2</p>
+                            <h4>Traveling With Diabetes &#8211; The Diabetic’s Guide to Air Travel</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 14, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../supplements-for-breast-cancer/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/Inflammation-article-2_Header-image-22.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/Inflammation-article-2_Header-image-22.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>Four Powerful Dietary Supplements For Breast Cancer</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 10, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../what-are-healthy-fats/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-2.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-2.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>What Are Healthy Fats And Why Everyone MUST Eat Them</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 31, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../pine-bark-extract-sexual-health/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/admin-ajax-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/admin-ajax-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>Pine Bark Extract Benefits: For Sexual Health And More</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Nov 4, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../vitamin-b12-diabetes/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/admin-ajax-10.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/admin-ajax-10.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Supplements</p>
+                            <h4>Why Vitamin B12 Is Important In Diabetes</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">May 13, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../osteoporosis-in-menopause/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-11.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-11.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Osteoporosis</p>
+                            <h4>3 Simple Ways To Fight Osteoporosis During Menopause</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 3, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../beetroot-for-asthma-and-copd/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-12.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-12.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>A Natural Remedy For COPD And Asthma: Beet</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 7, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../3-little-known-awesome-heart-helpers/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-10.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-10.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Heart</p>
+                            <h4>3 Little Known Awesome Heart Helpers</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Sep 29, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../possible-reverse-heart-disease/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-8.jpg" /><noscript><img src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2021/01/blog-image-8.jpg" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Heart</p>
+                            <h4>Simplest ways to restore Heart Health!</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Aug 26, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../thyroid-medication-risk/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Osteoporosis</p>
+                            <h4>Does Thyroid Medication Increase Your Osteoporosis Risk?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 24, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../selenium-for-thyroid-gland/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-7.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-7.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Hypothyroidism</p>
+                            <h4>Selenium: The Wonder Antioxidant For The Thyroid Gland</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Sep 19, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../supplements-for-depression/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-6-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/admin-ajax-6-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Mental Health</p>
+                            <h4>Supplements For Depression</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Sep 16, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+                    <a href="../iodine-supplements-great-health/index.html" class="blogPintile">
+                        <div class="blogPintile__image">
+
+
+                                                                   <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="blog" class="blogPintile__image__in" data-lazy-src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-1.webp" /><noscript><img src="https://3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/2016/10/admin-ajax-1.webp" alt="blog" class="blogPintile__image__in" /></noscript>
+                                                  </div>
+                        <div class="blogPintile__description">
+                            <p class="tagSpec">Living Well</p>
+                            <h4>Iodine Supplements – Lost Key to Great Health?</h4>
+                            <div class="bloginfoBox">
+                                <span class="blogDate">Oct 28, 2016</span>
+                               
+                                <span class="blogShare">
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__twitter--c"></span>
+                                    </label>
+                                    <label class="blogSocialLink">
+                                        <span class="sprite sprite__facebook--c"></span>
+                                    </label>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    
+
+
+                </div>
+            </div>
+        </section>
+
+          
+      <footer class="pageFooter pd-lg">
+                    <div class="container">
+                        <div class="fullPanel petalInTop ">
+                            <div class="footerLinkBlock" id="contact-us">
+                                <ul class="footerList">
+                                    <p class="footerListHead">OUR PROGRAMS</p>
+
+
+                                                                                                                          <li>
+                                                <a href='../our-programs/polycystic-ovary-disorder/index.html' class="footerListAnchor">Polycystic Ovary Disorder</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../our-programs/weight-loss/index.html' class="footerListAnchor">Weight Loss</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../our-programs/cystic-acne/index.html' class="footerListAnchor">Cystic Acne</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../our-programs/painful-periods/index.html' class="footerListAnchor">Painful Periods</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../programs/healthy-pregnancy/index.html' class="footerListAnchor">Pregnancy</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../programs/fertility-program/index.html' class="footerListAnchor">Fertility</a>
+                                            </li>
+                                                                                </ul>
+                                    
+
+                                </ul>
+
+                                <ul class="footerList">
+                                    <p class="footerListHead">HEALTH GUIDE</p>
+                                                                                                                         <li>
+                                                <a href='../category/gerd/index.html' class="footerListAnchor">Acid Reflux</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/allergies/index.html' class="footerListAnchor">Allergies</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/alzheimers/index.html' class="footerListAnchor">Alzheimer’s</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/arthritis/index.html' class="footerListAnchor">Arthritis</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/asthma/index.html' class="footerListAnchor">Asthma</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/constipation/index.html' class="footerListAnchor">Constipation</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/chronic-fatigue-syndrome/index.html' class="footerListAnchor">CFS</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/eyesight/index.html' class="footerListAnchor">Eyesight</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/fertility/index.html' class="footerListAnchor">Fertility</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/heart/index.html' class="footerListAnchor">Heart</a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+
+                                <ul class="footerList headOut">
+                                  
+                                                                                                                    <li>
+                                                <a href='../category/hypothyroidism/index.html' class="footerListAnchor">
+                                                    Hypothyroidism</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/immunity/index.html' class="footerListAnchor">
+                                                    Immunity</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/living-well/index.html' class="footerListAnchor">
+                                                    Living Well</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/programs/menopause/index.html' class="footerListAnchor">
+                                                    Menopause</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/mental-health/index.html' class="footerListAnchor">
+                                                    Mental Health</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/sleep/index.html' class="footerListAnchor">
+                                                    Sleep</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/osteoporosis/index.html' class="footerListAnchor">
+                                                    Osteoporosis</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/pcos/index.html' class="footerListAnchor">
+                                                    PCOD</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/type-2-diabetes/index.html' class="footerListAnchor">
+                                                    Type 2 Diabetes</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../category/weight-loss/index.html' class="footerListAnchor">
+                                                    Weight Loss</a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+
+                                <ul class="footerList">
+                                    <p class="footerListHead">ABOUT</p>
+                                                                                                                        <li>
+                                                <a href='../about-us/index.html' class="footerListAnchor">About Us</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../faq/index.html' class="footerListAnchor">FAQ</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../terms-and-conditions/index.html' class="footerListAnchor">Terms and Conditions</a>
+                                            </li>
+                                                                                    <li>
+                                                <a href='../disclaimer/index.html' class="footerListAnchor">Disclaimer</a>
+                                            </li>
+                                                                                </ul>
+                                                                    </ul>
+                            </div>
+
+                            <div class="footerContactBlock textRight m-t-lg">
+                                <ul class="footerContact">
+                                    <p class="footerListHead">CONTACT US</p>
+                                   
+                                            <li>
+                                                 Phone: +91 98800 43717
+                                            </li>
+                                            <li>
+                                                  Mon-Fri: 10am-6pm
+                                            </li>
+                                            <li>
+                                                mail:deepta.manu@gmail.com
+                                            </li>
+                                </ul>
+                            </div>   
+
+
+                            <!-- <div class="footerContactBlock textRight">
+                                <h3>Got a Question?</h3>                                
+                                <form id="enqForm" class="formIn">
+                                    <textarea id="enqQuery" placeholder="Type your question here" class="csTextArea"></textarea>
+                                    <input id="enqEmail" type="text" class="csInput" placeholder="Your email"  />
+                                    <button id="enquiry" class="secondaryBtn bgImgBtn">Submit</button>
+                                    <span id="enq-box"></span>
+                                </form>
+                            </div> -->
+
+
+
+                        </div>
+                        <div class="socialMediaBlock">
+                                                                      <ul class="socialMediaList">
+
+
+                                                                                <li>
+                                                <a  target="_blank" href='https://www.facebook.com/deepta.manohar' class="socialMediaAnchor">
+                                                    <span class='iconIn iconIn iconFB'></span>
+                                                    </a>
+                                            </li>
+                                                                                    <li>
+                                                <a  target="_blank" href='https://instagram.com/deeptamanu?igshid=YmMyMTA2M2Y=' class="socialMediaAnchor">
+                                                    <span class='iconIn iconIn iconINS'></span>
+                                                    </a>
+                                            </li>
+                                                                                    <li>
+                                                <a  target="_blank" href='https://youtube.com/channel/UCOKfWq8O4OENrp0Uzlh1H6Q' class="socialMediaAnchor">
+                                                    <span class='iconIn iconIn iconYT'></span>
+                                                    </a>
+                                            </li>
+                                                                                </ul>
+                                    
+
+                            <div class="btnHolder">
+                                <a href="tel:+91 98800 43717" class="iconBtn shaded">
+                                    +91 98800 43717
+                                    <span class="iconIn iconWA"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/919632824308" class="whatsapp_float" target="_blank"> <i style=" margin-top: 30%; margin-right: 12%;"class="iconIn iconWA"></i></a>
+                        <style>.whatsapp_float {
+                            position:fixed;
+                            width:60px;
+                            height:60px;
+                            bottom:23px;
+                            left:40px;
+                            background-color:#25d366;
+                            color:#FFF;
+                            border-radius:50px;
+                            text-align:center;
+                                font-size:30px;
+                            box-shadow: 2px 2px 3px #999;
+                                z-index:100;
+                        }
+                        
+                          </style>
+                        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/62ec12b737898912e961494c/1g9l2i899';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+                        <div class="fullPanel textCenter copyWriteBlock">
+                            <p>Copyright © 2022 Deepta Manohar Inc.</p>
+                            <div class="termsBlock">
+                                <p>Use of this web site constitutes acceptance of the sepalika.com 
+                                    <a href="../terms-of-use/index.html" class="inlineAnchor">Terms of Use</a>,
+                                     <a href="../terms-and-conditions/index.html" class="inlineAnchor">Terms & Conditions</a>
+                                      and <a href="../privacy-policy/index.html" class="inlineAnchor">Privacy Policy</a>.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </footer>     </div>
+    </div>
+
+    
+  <script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+
+
+	<div id="pum-18535" class="pum pum-overlay pum-theme-18360 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:18535,&quot;slug&quot;:&quot;pcod&quot;,&quot;theme_id&quot;:18360,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-18535&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:false,&quot;path&quot;:&quot;1&quot;,&quot;time&quot;:&quot;1 month&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.pum-18535&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-18535" class="pum-container popmake theme-18360 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<p><iframe loading="lazy" style="border: 1px solid #e4e6e9; display: inline;" src="https://data-sepalika.bsynapse.com/embed/form/M184MzcyMTEyMjEwODA=" name="bsynapseform" width="750px" height="1080px" frameborder="1" marginwidth="1px" marginheight="0px" scrolling="yes" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			            </button>
+		
+	</div>
+
+</div>
+<div id="pum-18369" class="pum pum-overlay pum-theme-18360 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:18369,&quot;slug&quot;:&quot;fertility&quot;,&quot;theme_id&quot;:18360,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-18369&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:null,&quot;time&quot;:&quot;28 days&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;.pum-18369&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;100px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;100px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" >
+
+	<div id="popmake-18369" class="pum-container popmake theme-18360 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<p><iframe loading="lazy" style="border: 1px solid #e4e6e9; display: inline;" src="https://dev.nuggets.live/publish/611ee11478adb/?page=Sepalika-Fertility-Quiz" name="bsynapseform" width="750px" height="1080px" frameborder="1" marginwidth="1px" marginheight="0px" scrolling="yes" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			            </button>
+		
+	</div>
+
+</div>
+					<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="../wp-content/cache/min/1/t/Tracker720c.js?ver=1645785629" defer></script>
+					<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+						pidTracker('57684');			
+					</script>
+				<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};	
+var lsqresult =  getUrlParameter('result');
+if(lsqresult == 'success'){
+	jQuery('#sec-message-wrapper').toggle();
+}
+</script>	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9' id='regenerator-runtime-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.sepalika.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index48c1.js?ver=1645525377' id='contact-form-7-js' defer></script>
+<script type='text/javascript' id='toc-front-js-extra'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1","visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/table-of-contents-plus/front.min5544.js?ver=2106' id='toc-front-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.mine230.js?ver=2.7.0-wc.6.4.1' id='jquery-blockui-js' defer></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.sepalika.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minaec2.js?ver=6.4.1' id='wc-add-to-cart-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.minc4da.js?ver=2.1.4-wc.6.4.1' id='js-cookie-js' defer></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minaec2.js?ver=6.4.1' id='woocommerce-js' defer></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_759730638b48ea270c70b7f7e2fe40e0","fragment_name":"wc_fragments_759730638b48ea270c70b7f7e2fe40e0","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.minaec2.js?ver=6.4.1' id='wc-cart-fragments-js' defer></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/www.sepalika.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe720c.js?ver=1645785629' id='wpcf7-redirect-script-js' defer></script>
+<script type='text/javascript' id='ca1910db6-js-extra'>
+/* <![CDATA[ */
+var localize = {"ajaxurl":"https:\/\/www.sepalika.com\/wp-admin\/admin-ajax.php","nonce":"58c0cd225b","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"https:\/\/www.sepalika.com\/blog\/"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/uploads/essential-addons-elementor/734e5f942.min1907.js?ver=1653472166' id='ca1910db6-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min0028.js?ver=1.13.1' id='jquery-ui-core-js' defer></script>
+<script type='text/javascript' id='popup-maker-site-js-extra'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.16.7","pm_dir_url":"https:\/\/www.sepalika.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/www.sepalika.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/www.sepalika.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"18360","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"analytics_route":"analytics","analytics_api":"https:\/\/www.sepalika.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/www.sepalika.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-18535":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".pum-18535"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-18535","key":"","session":false,"path":"1","time":"1 month"}}],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"18360","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":18535,"slug":"pcod"},"pum-18369":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":".pum-18369"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-18369","key":"","session":null,"path":null,"time":"28 days"}}],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"18360","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"100px","custom_height_auto":false,"custom_height":"100px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":true,"disable_accessibility":false,"theme_slug":"default-theme","id":18369,"slug":"fertility"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/uploads/pum/pum-site-scripts48c1.js?ver=1645525377' id='popup-maker-site-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../js/slick.min48c1.js' id='slick-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/themes/sepalika/assets/js/template48c1.js?ver=1645525377' id='script-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../www.google.com/recaptcha/api0280.js?render=6LeQbJQeAAAAADZkaWFWgeLNYG03xXY7viEPMsQN&amp;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LeQbJQeAAAAADZkaWFWgeLNYG03xXY7viEPMsQN","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/contact-form-7/modules/recaptcha/indexbb97.js?ver=1645784038' id='wpcf7-recaptcha-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/woo-product-gallery-slider/assets/js/jquery.fancybox.mindc8c.js?ver=2.2' id='fancybox-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/cache/min/1/wp-content/plugins/woo-product-gallery-slider/assets/js/wpgs48c1.js?ver=1645525377' id='wpgs-public-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='wpgs-public-js-after'>
+jQuery(document).ready(function(){
+        jQuery('.wpgs-for').slick({
+            slidesToShow:1,
+            slidesToScroll:1,
+            arrows:true,
+            fade:false,
+            rtl: false,
+			dots: false,
+			pauseOnHover: true,
+			pauseOnDotsHover: true,
+			dotsClass:'slick-dots wpgs-dots',
+            infinite:false,
+            adaptiveHeight:true,
+            autoplay:false,
+			autoplaySpeed: 4000,
+            draggable:false,
+           nextArrow:'<i class="flaticon-right-arrow"></i>',
+            prevArrow:'<i class="flaticon-back"></i>',
+            asNavFor:'.wpgs-nav',
+
+        });
+        jQuery('.wpgs-nav').slick({
+            slidesToShow:4,
+            slidesToScroll: 1,
+            asNavFor:'.wpgs-for',
+            arrows:true,
+            rtl: false,
+            infinite:false,
+            focusOnSelect:true,
+            responsive: [
+
+					{
+					breakpoint: 1025,
+					settings: {
+						variableWidth: false,
+
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						swipeToSlide :true,
+
+					}
+					},
+
+					{
+					breakpoint: 767,
+					settings: {
+						variableWidth: false,
+
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						swipeToSlide :true,
+					}
+					}
+
+				],
+        });
+
+        
+            jQuery('.wpgs-for img.attachment-shop_single').each(function () {
+				var newImgSrc = jQuery(this).attr('data-zoom_src');
+				jQuery(this)
+                .wrap('<span style="display:inline-block"></span>')
+                .css('display', 'block')
+                .parent()
+                .zoom({url: newImgSrc});
+
+			});
+            jQuery('.woocommerce-product-gallery__image img').load(function () {
+                var imageObj = jQuery('.woocommerce-product-gallery__image img');
+                if (!(imageObj.width() == 1 && imageObj.height() == 1)) {
+                    jQuery(this).parent().find('.zoomImg').remove();
+                }
+            });
+
+            
+
+
+      });
+</script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="../../3ojyyf2632223ekuqd259a7e-wpengine.netdna-ssl.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script>
+      <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+	  
+	  
+       /*   
+         document.getElementById("enquiry").addEventListener("click", function(event){
+                      event.preventDefault();
+                     
+                      $('#enq-box').html("Please wait");
+                      var enqEmail= document.getElementById('enqEmail').value;
+                      let enqValidate=enqEmail.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
+
+                      let Query=document.getElementById('enqQuery').value;
+                    
+                       if(Query == ""){
+                         $('#enqQuery').addClass('errorIn');
+                      }
+                      else{
+                         $('#enqQuery').removeClass('errorIn');
+                      }
+
+                      if(!enqValidate){
+                            $('#enqEmail').addClass('errorIn');
+                            $('#enq-box').html("");
+                            return false;
+                      }
+                      else{
+                          $('#enqEmail').removeClass('errorIn');
+                         
+                      }
+                     if(Query == "" || !enqValidate ){
+
+                            $('#enq-box').html("");
+                             return false;
+
+                     }
+                   
+
+
+
+
+                      const url = "https://vissionapi.bsynapse.com/collection/createdata?t=1608566228456&index=sepalika";
+
+                     let data={"mode":"save","parent":"2_551613130621","uid":"2","usertype":"Superadmin","referenceID":"2_551613130621","formconcat":"https://sepalika.com/ General ","formdata":"[{\"type\":\"text\",\"masterid\":\"1174838429\",\"label\":\"name\",\"value\":[{\"value\":\"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"text\",\"masterid\":\"914909408\",\"label\":\"phone\",\"value\":[{\"value\":\"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"email\",\"masterid\":\"1383554530\",\"label\":\"email\",\"value\":[{\"value\":\""+enqEmail+"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"textarea\",\"masterid\":\"583652641\",\"label\":\"underlying_condition\",\"value\":[{\"value\":\"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"textarea\",\"masterid\":\"65042045\",\"label\":\"query\",\"value\":[{\"value\":\""+Query+"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"switch\",\"masterid\":\"1273908115\",\"label\":\"interested\",\"value\":[{\"text\":\"Not Sure\",\"weightage\":\"\",\"correct\":\"No\",\"value\":\"\",\"refIndexNo\":0}],\"external_linked\":\"no\",\"optionstatus\":\"textoption\"},{\"type\":\"text\",\"masterid\":\"316860044\",\"label\":\"page_identifier\",\"value\":[{\"value\":\"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"url\",\"masterid\":\"1506392570\",\"label\":\"page_url\",\"value\":[{\"value\":\""+window.location.href+"\",\"refIndexNo\":0}],\"external_linked\":\"no\"},{\"type\":\"dropdown\",\"masterid\":\"1156009029\",\"label\":\"condition\",\"value\":[{\"refIndexNo\":0,\"value\":\"general\"}],\"external_linked\":\"no\"}]","child":"160820477412967","formtype":"","reference":"","closeworkflowparams":""}
+
+
+                      $.ajax({
+                      type: 'post',
+                      url: 'https://vissionapi.bsynapse.com/collection/createdata?t=1608566228456&index=sepalika',
+                      data: data,
+                              success: function (msg) {
+                                $('#enq-box').html("Message Sent");
+                                $('form#enqForm').trigger("reset"); //Line1
+                                 setTimeout(function () {
+                                       $('#enq-box').html("");
+                                  }, 1500)
+                              }
+                      });
+          });*/
+      </script>
+
+	
+<!-- Mirrored from www.sepalika.com/blog/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 25 May 2022 10:24:07 GMT -->
+</html>
+    </div>
+
+
+
+
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

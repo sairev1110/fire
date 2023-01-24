@@ -1,0 +1,15 @@
+<svg width="189px" height="191px" viewBox="0 0 189 191" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#FFCA8D"/>
+      <stop offset="1" stop-color="#FFB47A"/>
+    </linearGradient>
+  </defs>
+  <g id="PetalBig" transform="matrix(0.05233597 0.9986295 -0.9986295 0.05233597 177.5928 2.102051)">
+    <path d="M7.25102 71.7486L50.59 0.000366062L93.9289 71.7486C108.342 95.6092 100.622 126.599 76.6865 140.967C68.8084 145.696 59.7861 148.195 50.59 148.195C22.6502 148.195 0.000488651 125.616 0.000488569 97.7635C0.000488542 88.5961 2.50718 79.6021 7.25102 71.7486Z" transform="matrix(-0.6946583 -0.7193398 0.7193398 -0.6946583 70.29004 175.7324)" id="Triangle-Copy-17" fill="url(#gradient_1)" stroke="none"/>
+    <path d="M0 105.07C0 105.07 22.8116 58.5827 36.9896 36.5718C51.1676 14.5609 74.8892 0 74.8892 0" transform="translate(41.67407 28.5293)" id="Path-3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M31.9456 0L0 18.4861L1.44789 5.22138" transform="translate(68.11719 64.18555)" id="Path-6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M25.3432 1.00678L1.1004 11.3318L-2.34806e-13 3.3811e-14" transform="translate(52.49561 98.22852)" id="Path-6-Copy" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+</svg>

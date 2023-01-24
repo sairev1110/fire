@@ -1,0 +1,8 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="quill-write" transform="translate(0.5 0.5)">
+    <path d="M19 10.5L19 20L19 20C19 20.5523 18.5523 21 18 21L1 21L1 21C0.447715 21 0 20.5523 0 20C0 20 0 20 0 20L0 1L1.13243e-14 1C-8.33927e-08 0.447715 0.447715 0 1 0L11.5 0" transform="translate(0 2)" id="Path" fill="none" stroke="#564892" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 9L9 0" transform="translate(7 7)" id="Path" fill="none" stroke="#564892" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4.15745 3C3.15745 3.124 -2.35655 8.488 1.15745 12C2.38545 13.229 5.09545 13 8.40045 9.7C11.7054 6.4 13.1574 0 13.1574 0L13.1574 3.93647e-07C11.0246 0.337821 8.93985 0.929349 6.94746 1.762C6.94746 1.762 6.15745 5.5 4.15745 5.5L4.15745 3Z" transform="translate(9.841797 0)" id="Path" fill="none" stroke="#564892" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

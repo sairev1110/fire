@@ -1,0 +1,7 @@
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="house-1" transform="translate(0.5 0.5)">
+    <path d="M0 0L0 6.75L7.99361e-15 6.75C6.25445e-08 7.16421 0.335786 7.5 0.75 7.5L4.125 7.5L4.125 7.5C4.33211 7.5 4.5 7.33211 4.5 7.125L4.5 4.125L4.5 4.125C4.5 3.08947 5.33947 2.25 6.375 2.25C7.41053 2.25 8.25 3.08947 8.25 4.125C8.25 4.125 8.25 4.125 8.25 4.125L8.25 7.125L8.25 7.125C8.25 7.33211 8.41789 7.5 8.625 7.5L12 7.5L12 7.5C12.4142 7.5 12.75 7.16421 12.75 6.75L12.75 0.375" transform="translate(2.25 9)" id="Path" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 8.625L8.625 0L17.25 8.625" id="Path" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

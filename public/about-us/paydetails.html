@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form1.css">
+    
+    <title>Payment Gateway</title>
+</head>
+
+<body>
+    <div class="container1">
+    <div class="title">Payment Details</div>
+    <div class="content">
+      <form action="payment.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name</span>
+            <input name="name" id="name" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input name="phone" id="phone" type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input name="email" id="email" type="text" placeholder="Enter your email" required>
+          </div>
+          <input type="hidden" name="amo" value="999">
+          </div>
+        <div class="button">
+        <input type="submit" value="Pay Now">
+        </div>
+      </form>
+    </div>
+       
+  </div>
+
+</body>
+
+</html>

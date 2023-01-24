@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rss-feed</title>
+    <g id="Sepalika-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Homev3" transform="translate(-516.000000, -8828.000000)" stroke="#FFFFFF">
+            <g id="rss-feed" transform="translate(516.000000, 8828.000000)">
+                <circle id="Oval" cx="4.5" cy="19.497" r="3.75"></circle>
+                <path d="M0.75,8.844 L0.75,8.84399965 C6.66510103,6.80619965 13.112201,9.94937965 15.150001,15.8644796 C15.973679,18.2553696 15.973679,20.8531096 15.1500003,23.2439996" id="Path"></path>
+                <path d="M0.74999801,1.113 L0.74999801,1.1130004 C10.913098,-0.949459596 20.823898,5.6174104 22.886298,15.7805004 C23.385521,18.2405104 23.386438,20.7756404 22.8889939,23.2360004" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="65px" height="46px" viewBox="0 0 65 46" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M2 4C3.10457 4 4 3.10457 4 2C4 0.895431 3.10457 0 2 0C0.895431 0 0 0.895431 0 2C0 3.10457 0.895431 4 2 4Z" transform="translate(30.78906 25.99951)" id="path_1"/>
+  </defs>
+  <g id="logo" transform="matrix(0.8660253 0.5000002 -0.5000002 0.8660253 5.353516 -18.07632)" opacity="0.1">
+    <path d="M17 0L25.5005 14.0009C30.1947 21.7324 26.6676 28 17.6227 28L16.3773 28C7.33239 28 3.80535 21.7324 8.49948 14.0009C12.7497 7.00057 17 0 17 0Z" transform="matrix(-1 2.980233E-08 -2.980233E-08 -1 49.78857 28)" id="Triangle" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M16.8946 0L25.3337 14.0144C29.9939 21.7535 26.4483 28.0295 17.4145 28.0323L16.3662 28.0326C7.3274 28.0354 3.78175 21.7617 8.44678 14.0197C12.6706 7.01 16.8946 -6.22588e-14 16.8946 0Z" transform="matrix(0.5000001 -0.8660254 0.8660254 0.5000001 24.41113 42.75391)" id="Triangle-Copy" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M16.8946 0L25.3337 14.0144C29.9939 21.7535 26.4483 28.0295 17.4145 28.0323L16.3662 28.0326C7.3274 28.0354 3.78175 21.7617 8.44678 14.0197C12.6706 7.01 16.8946 0 16.8946 0Z" transform="matrix(-0.5000001 -0.8660253 -0.8660253 0.5000001 41.1665 42.75391)" id="Triangle-Copy-2" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <g id="Oval">
+      <use xlink:href="#path_1" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="19px" height="15px" viewBox="0 0 19 15" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="tool-box" transform="translate(0.5 0.5)">
+    <path d="M0 0.375L7.5 0.375" transform="translate(0 6.375)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 0.375L7.5 0.375" transform="translate(9.75 6.375)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0.41321 0L16.8368 0C17.065 0 17.25 0.185 17.25 0.41321L17.25 10.0868C17.25 10.315 17.065 10.5 16.8368 10.5L0.41321 10.5C0.185 10.5 0 10.315 0 10.0868L0 0.41321C0 0.185 0.185 0 0.41321 0Z" transform="translate(0 3.00075)" id="Rectangle" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2.25 1.875L2.25 1.875C2.25 2.49632 1.74632 3 1.125 3C0.50368 3 0 2.49632 0 1.875L0 0L2.25 0L2.25 1.875Z" transform="translate(7.5 6)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 3L3.4639e-14 3C-2.50178e-07 1.34315 1.34315 0 3 0C4.65685 -2.50178e-07 6 1.34315 6 3C6 3 6 3 6 3" transform="translate(5.625 0)" id="Path" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
